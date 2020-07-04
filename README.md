@@ -1,4 +1,2 @@
 # CAD
-https://honglim001.github.io/CAD/
-
-https://www.naver.com
+https://honglim001.github.io/CAD/.
