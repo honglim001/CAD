@@ -1,34 +1,38 @@
 body {
-    background-color: dimgray;
+    background-color: black;
 }
 
 .headLine {
-    background-color: #D7DF01;
-    border-radius: 20px;
-    width: 100%;
+    background-color: black;
+    border-radius: 100px;
+    width: 700px;
+    margin: auto;
     text-align: center;
 }
 
 #TeamName {
     font-size: 100px;
-    color: black;    
+    color: #dbd823;    
     text-shadow: 4px 5px 1px dimgrey;
 }
 
 #RealTeamName {
     font-size: 30px;
+    color: #dbd823;
 }
 
 .main {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     height: 1000px;
-    background-color: #F2F5A9;
+    background-color: #f8f5ff;
+    background-image: linear-gradient(black, #fee0ff)
 }
 
 #link{
     color: black;
     font-size: 70px;
+
 }
 
 #first_project {
@@ -41,9 +45,11 @@ body {
 }
 
 .info {
-    background-color: dimgray;
-    width: 100%;
+    background-color: black;
+    width: 300px;
     height: 100px;
+    margin: auto;
+    color:lavender;
 }
 
 .img {
