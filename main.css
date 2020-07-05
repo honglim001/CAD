@@ -2,6 +2,21 @@ body {
     background-color: black;
 }
 
+.floatingMenu {
+    width: 300px;
+    border: 1px solid dimgrey;
+    color: yellow;
+    background-color: dimgrey;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+}
+
+.div_button{
+    margin-right: auto;
+    float: right;
+}
+
 .headLine {
     background-color: black;
     border-radius: 100px;
@@ -29,7 +44,7 @@ body {
     background-image: linear-gradient(black, #fee0ff);
 }
 
-#link{
+#link {
     color: black;
     font-size: 70px;
     text-align: center;
@@ -43,7 +58,7 @@ body {
     text-shadow: 2px 3px 1px dimgrey;
 }
 
-#img{
+#img {
     float: left;
     width: 700px;
 }
@@ -53,7 +68,7 @@ body {
     width: 300px;
     height: 100px;
     margin: auto;
-    color:lavender;
+    color: lavender;
 }
 
 .img {
@@ -67,7 +82,8 @@ body {
     text-shadow: 2px 3px 1px dimgrey;
     text-align: center;
 }
-a{
-  text-decoration: none;
-  color:black;
+
+a {
+    text-decoration: none;
+    color: black;
 }
