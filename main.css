@@ -87,3 +87,8 @@ a {
     text-decoration: none;
     color: black;
 }
+.floatingMenu{
+    border-radius: 120px / 0px 100px;
+    height: 300px;
+    width: 70px;
+}
