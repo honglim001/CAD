@@ -40,8 +40,8 @@ body {
     border-radius: 10px;
     width: 100%;
     height: 1000px;
-    background-color: #f8f5ff;
-    background-image: linear-gradient(black, #fee0ff);
+    background-color: black;
+    /*background-image: linear-gradient(black, #fee0ff);*/
 }
 
 #link {
@@ -85,10 +85,10 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: LavenderBlush;
 }
 .floatingMenu{
-    border-radius: 120px / 0px 100px;
+    border-radius: 20px;
     height: 300px;
     width: 70px;
 }
