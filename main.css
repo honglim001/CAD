@@ -3,7 +3,6 @@ body {
 }
 
 .floatingMenu {
-    width: 300px;
     border: 1px solid dimgrey;
     color: yellow;
     background-color: dimgrey;
@@ -12,17 +11,21 @@ body {
     right: 10px;
 }
 
-.div_button{
+.gotoButton {
+    align-items: center;
+}
+
+.div_button {
     margin-right: auto;
     float: right;
 }
 
 .headLine {
     background-color: black;
-    border-radius: 100px;
     width: 700px;
     margin: auto;
     text-align: center;
+    border-bottom:3px solid white;
 }
 
 #TeamName {
@@ -35,7 +38,9 @@ body {
     font-size: 30px;
     color: #dbd823;
 }
-
+#click{
+    width: 200px;
+}
 .main {
     border-radius: 10px;
     width: 100%;
@@ -71,7 +76,12 @@ body {
     color: lavender;
 }
 
-.img {
+#img {
+    width: 700px;
+    height: 355px;
+}
+
+#icon{
     width: 30px;
     height: 30px;
 }
@@ -87,8 +97,14 @@ a {
     text-decoration: none;
     color: LavenderBlush;
 }
-.floatingMenu{
-    border-radius: 20px;
-    height: 300px;
-    width: 70px;
+
+.floatingMenu {
+
+    border-radius: 20px 0px 0px 20px;
+    width: 60px;
+    height: 150px;
+}
+
+.clock{
+    background-color: white;
 }
