@@ -1,16 +1,26 @@
-<html>  
+<html>
 
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script>
-        function delDiv()
-        {
+        function delDiv() {
             $('.floatingMenu').remove();
         }
-        function minDiv()
-        {
-            $('.floatingMenu').css("visibility","hidden;") ;  
-        }
+        /*
+        var flag = 1;
+
+        function tag() {
+            flag *= -1;
+            if (flag == 1) //기본 상태일 경우
+            {
+                $('.floatingMenu').css('width', '70px');
+                $('.floatingMenu').css('height', '300px');
+            } else //아닐 경우 
+            {
+                $('.floatingMenu').css('width', '60px');
+                $('.floatingMenu').css('height', '150px');
+            }
+        }*/
     </script>
 </head>
 
@@ -21,9 +31,12 @@
 <body>
     <div class="floatingMenu">
         <!--<button class="div_button" id="del" onclick="delDiv();">X</button>-->
-        <!--<button class="div_button" id="min" onclick="minDiv();">_</button>-->
-        <br>
-        <li>안녕?</li>
+        <!--<button class="div_button" id="min" onclick="tag();">↔</button>-->
+        <div class="gotoButton">
+            <p><button>1</button></p>
+            <p><button>2</button></p>
+            <p><button>3</button></p>
+        </div>
         <br>
     </div>
     <table class="headLine">
@@ -31,11 +44,12 @@
         <tr>
             <td>
                 <p>
-                    <div id="TeamName"><strong>Team CAD</strong></div>
-                </p>
+                    <div id="TeamName"><strong></strong><img src="logo.PNG" alt="" id="click"></div>
+                </p>    
                 <p>
                     <div id="RealTeamName">(Creative-Adventure-Development)</div>
                 </p>
+                <br>
             </td>
         </tr>
     </table>
@@ -49,7 +63,7 @@
                         </strong></div>
                 </p>
                 <p>
-                    <div id="link"><a href="https://honglim001.github.io/html-project1/start.html" target="_blank">▶Go
+                    <div id="link"><a href="https://honglim001.github.io/html-project1/start.html" target="_blank">Go
                             To Website</a></div>
                 </p>
             </td>
@@ -74,35 +88,35 @@
         <tr>
             <td align="center">홍준혁</td>
             <td align="center"><a href="https://www.facebook.com/programmingHong/" target="_blank"><img
-                        src="facebook.jpg" alt="" class="img"></a>
-            <td align="center"><a href="https://github.com/milky1234" target="_blank"><img src="깃허브.jpg" class="img"
+                        src="facebook.jpg" alt="" id="icon"></a>
+            <td align="center"><a href="https://github.com/milky1234" target="_blank"><img src="깃허브.jpg" id="icon"
                         alt="홍준혁"></a></td>
             </td>
             <td align="center">전아현</td>
             <td align="center"><a href="https://www.facebook.com/profile.php?id=100018864398025" target="_blank"><img
-                        src="facebook.jpg" alt="" class="img"></a>
-            <td align="center"><a href="https://github.com/ahjeon0407" target="_blank"><img src="깃허브.jpg" class="img"
+                        src="facebook.jpg" alt="" id="icon"></a>
+            <td align="center"><a href="https://github.com/ahjeon0407" target="_blank"><img src="깃허브.jpg" id="icon"
                         alt="임재현"></a></td>
             </td>
         </tr>
         <tr>
             <td align="center">조민수</td>
             <td align="center"><a href="https://www.facebook.com/profile.php?id=100015302599102" target="_blank"><img
-                        src="facebook.jpg" alt="" class="img"></a>
-            <td align="center"><a href="https://github.com/toswm128" target="_blank"><img src="깃허브.jpg" class="img"
+                        src="facebook.jpg" alt="" id="icon"></a>
+            <td align="center"><a href="https://github.com/toswm128" target="_blank"><img src="깃허브.jpg" id="icon"
                         alt="조민수"></a></td>
             </td>
             <td align="center">허새찬</td>
             <td align="center"><a href="https://www.facebook.com/profile.php?id=100012454239777" target="_blank"><img
-                        src="facebook.jpg" alt="" class="img"></a>
-            <td align="center"><a href="https://github.com/ha11owing" target="_blank"><img src="깃허브.jpg" class="img"
+                        src="facebook.jpg" alt="" id="icon"></a>
+            <td align="center"><a href="https://github.com/ha11owing" target="_blank"><img src="깃허브.jpg" id="icon"
                         alt="허새찬"></a></td>
             </td>
         </tr>
         <td align="right" colspan="3">임재현</td>
         <td align="left" colspan="3"><a href="https://www.facebook.com/profile.php?id=100016279240376"
-                target="_blank"><img src="facebook.jpg" alt="" class="img"></a><a href="https://github.com/limjh0513"
-                target="_blank"><img src="깃허브.jpg" class="img" alt="임재현"></a></td>
+                target="_blank"><img src="facebook.jpg" alt="" id="icon"></a><a href="https://github.com/limjh0513"
+                target="_blank"><img src="깃허브.jpg" id="icon" alt="임재현"></a></td>
         </td>
         </tr>
 </body>
