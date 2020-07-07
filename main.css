@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.gotoButton {
+    float: right;
+}
+
+
 .floatingMenu {
     border: 1px solid dimgrey;
     color: yellow;
@@ -11,9 +16,6 @@ body {
     right: 10px;
 }
 
-.gotoButton {
-    align-items: center;
-}
 
 .div_button {
     margin-right: auto;
@@ -99,9 +101,8 @@ a {
 }
 
 .floatingMenu {
-
     border-radius: 20px 0px 0px 20px;
-    width: 60px;
+    width: 70px;
     height: 150px;
 }
 
